@@ -10,7 +10,7 @@ from tensorflow.keras import Sequential, layers, callbacks
 from tensorflow.keras.layers import Dense, LSTM, Dropout, GRU, Bidirectional
 
 #file location of dataset
-filename = "/Users/tina/Downloads/Bio_Conscious_Data_Challenge/"
+filename = 
 
 df1 = pd.read_csv(filename+"heart_rate_data.csv")
 #type(df.point_timestamp[0])
